@@ -135,7 +135,7 @@ function addToFavourites()
 function moreInfo()
 {
     localStorage.setItem('moreInfo', this.id);
-    window.location.replace("file:///C:/Users/User/OneDrive/Desktop/Superhero%20App/superheropage.html");
+    window.location.replace("https://anindyasdey.github.io/superherohunter/superheropage.html");
     console.log(this.id);
 
 }
