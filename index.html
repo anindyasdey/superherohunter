@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title> Anindya's SuperHero Hunter App</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <link rel="stylesheet" href="./Assets/CSS/indexstyle.css">
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+        integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    </head>
+    <body>
+        <nav class="navbar navbar-dark bg-dark justify-content-between mr-auto container-fluid">
+            <a class="navbar-brand" href="index.html"><i class="fa fa-mask"></i> Super Hero Hunter App </a>
+            <form class="form-inline col-7">
+              <input class="form-control mr-sm-2 col-7" type="search" placeholder="Search for Superheroes..." aria-label="Search" id="search">
+            </form>
+            
+            <form class="form-inline">
+                <a href="favorites.html" class="btn btn-outline-warning my-2 my-sm-0"><i class="fa-regular fa-heart"></i> Favorites </a>
+            </form>
+        </nav>
+
+    
+        <div class="jumbotron jumbotron-fluid" id="hero"> 
+            <div class="d-flex flex-row cards-container" id="search-results"></div>
+        </div>
+                
+
+        <div id="body-background">
+            <h1> Welcome to the Super Hero Hunter App</h1>
+        </div>
+        <script src="./Assets/JS/indexscript.js"></script>
+    </body>
+</html>
